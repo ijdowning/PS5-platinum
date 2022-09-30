@@ -16,10 +16,11 @@
         ?>
     </h2>
     <p>
+    <?php $gameslibrary = json_decode(file_get_contents('games.json'), true);?>
         <table>
             <tr>
                 <?php
-                    $gameslibrary = json_decode(file_get_contents('games.json'), true);
+                
                 ?>
             </tr>
         </table>
