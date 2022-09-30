@@ -18,18 +18,37 @@
     <p>
     <?php $gameslibrary = json_decode(file_get_contents('games.json'), true);?>
         <table>
-            <tr>
+            <thead>
+                <th>
+                    Game Name
+                </th>
+                <th>
+                    Completion Status
+                </th>
+            </thead>
+            <tbody>
                 <?php
-                
-                ?>
-            </tr>
+                foreach($gameslibrary as $game){?>
+                <tr>
+                    <td>
+                        <?= $game["name"]; ?>
+                    </td>
+                    <td>
+                        <?= $game["completion_percentage"]; ?>
+                    </td>
+                </tr>
+                <?php } ?>   
+
+            </tbody>
         </table>
     </p>
     <h3>
         <?php
         echo 'Completed Games:'
         ?>
-    </h3>
-    
+    </h3> 
+    <p>
+        
+    </p> 
 </body>
 </html>

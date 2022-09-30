@@ -1,11 +1,18 @@
 [
     {
-        "name": "Gran Tourismo"
+        "name": "Gran Tourismo",
+        "completion_percentage": "50%"
     },
     {
-        "name": "Gotham Knights"
+        "name": "Gotham Knights",
+        "completion_percentage":"0%"
     },
     {
-        "name": "Horizon: forbidden west"
+        "name": "Horizon: forbidden west",
+        "completion_percentage": "20%"
+    },
+    {
+        "name": "Lego star wars: The skywalker saga",
+        "completion_percentage": "100%"
     }
 ]
