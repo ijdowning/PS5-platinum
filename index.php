@@ -19,7 +19,7 @@
         <table>
             <tr>
                 <?php
-                $gameslibrary['Gran Tousismo 7','Horizon: Forbidden West','Gotham Knights'];
+                    $gameslibrary = ['Gran Tousismo 7','Horizon: Forbidden West','Gotham Knights'];
                 ?>
             </tr>
         </table>
